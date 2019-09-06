@@ -1,0 +1,30 @@
+{
+  "name": "aws-node-deploy",
+  "version": "1.0.0",
+  "description": "aws-node-deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/test.js",
+       "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldanosike/aws-node-deploy.git"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "Gerald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldanosike/aws-node-deploy/issues"
+  },
+  "homepage": "https://github.com/geraldanosike/aws-node-deploy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  }
+}
