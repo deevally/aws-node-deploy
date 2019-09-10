@@ -1,10 +1,10 @@
 #!/bin/sh
-ssh ubuntu@52.14.161.65 <<EOF
+ssh ubuntu@18.217.135.170 <<EOF
     cd ~/aws-node-deploy
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
     . ~/.nvm/nvm.sh
-    nvm install v10.11.0
+    nvm install v12.10.0
     npm install
     npm install -g nodemon pm2
     pm2 restart ecosystem.config.js
