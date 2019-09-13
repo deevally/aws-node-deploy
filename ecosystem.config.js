@@ -14,7 +14,7 @@ module.exports = {
   apps: [
     {
       name: "aws-node-deploy",
-      script: "npm",
+      script: "index.js",
       env: {
         PORT: 3000,
         NODE_ENV: "production"
