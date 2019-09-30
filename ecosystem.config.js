@@ -14,7 +14,9 @@ module.exports = {
   apps: [
     {
       name: "aws-node-deploy",
-      script: "index.js",
+      // script: "index.js",
+      script: "npm",
+      args: "start",
       env: {
         PORT: 3000,
         NODE_ENV: "production"
@@ -25,7 +27,6 @@ module.exports = {
     production: {
       user: "ubuntu",
       host: "ec2-18-221-52-202.us-east-2.compute.amazonaws.com",
-      // key: "~/.ssh/node-app.pem",
       key: "~/documents/vgg-learn/node-app.pem",
       ref: "origin/master",
       repo: "https://github.com/geraldanosike/aws-node-deploy.git",

@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ubuntu@18.217.135.170 <<EOF
+ssh ubuntu@18.221.52.202 <<EOF
     cd ~/aws-node-deploy
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
