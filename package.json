@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/geraldanosike/aws-node-deploy#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "mocha": "^6.2.0",
